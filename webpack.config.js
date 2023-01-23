@@ -59,7 +59,7 @@ module.exports = {
     new MiniCssExtractPlugin(),
     new VueLoaderPlugin(),
     new HtmlWebpackPlugin({
-      template: "./src/index.html",
+      template: "index.html",
     }),
   ],
   optimization: {
